@@ -83,6 +83,7 @@ button,select {
 
 [type=button],[type=reset],[type=submit],button {
     -webkit-appearance:button;
+    appearance:button;
 }
 
 [type=button]::-moz-focus-inner,
@@ -131,6 +132,7 @@ textarea {
 
 [type=search] {
     -webkit-appearance:textfield;
+    appearance:textfield;
     outline-offset:-2px;
 }
 
@@ -140,6 +142,7 @@ textarea {
 
 ::-webkit-file-upload-button {
     -webkit-appearance:button;
+    appearance:button;
     font:inherit;
 }
 
@@ -214,7 +217,6 @@ template {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-
 }
 
 
