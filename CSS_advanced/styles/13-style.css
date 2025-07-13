@@ -38,6 +38,7 @@
     text-align: var(--section-header-align);
 }
 
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -45,6 +46,7 @@
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
+
 
 .section-tagline {
     color: var(--color-primary);
@@ -54,14 +56,17 @@
 
 }
 
+
 .card-category {
   color: var(--color-primary);
 }
+
 
 html {
     font-size: 62.5%;
     /* Default font size */
 }
+
 
 body {
   color: var(--text-color);
@@ -77,17 +82,21 @@ a[href] {
   text-decoration: none;
 }
 
+
 a[href]:visited  {
     font-style: italic;
 }
+
 
 a[href]:hover {
     text-decoration: underline;
 }
 
+
 a[href]:active {
     background-color: var(--color-light-grey);
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   /* Headings use title font stack */
