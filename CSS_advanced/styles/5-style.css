@@ -11,11 +11,11 @@
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   /* Font sizes */
-  --font-size-small: 1.2rem;
-  --font-size-medium: 1.6rem;
-  --font-size-large: 1.8rem;
-  --font-size-xlarge: 2.3rem;
-  --font-size-xx-large: 4.8rem;
+  --font-size-small:     1.2rem;
+  --font-size-medium:    1.6rem;
+  --font-size-large:     1.8rem;
+  --font-size-xlarge:    2.3rem;
+  --font-size-xx-large:  4.8rem;
 }
 
 .section-tagline,
@@ -30,7 +30,7 @@ html {
 
 body {
   color: var(--text-color);
-    /* Base text uses body font stack */
+    /* Base text uses body font stack  */
   font-family: var(--font-family-base);
   font-size: var(--font-family-medium);
 }
