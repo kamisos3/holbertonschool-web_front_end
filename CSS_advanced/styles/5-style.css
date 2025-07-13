@@ -32,8 +32,8 @@ html {
 body {
   color: var(--text-color);
     /* Base text uses body font stack  */
-  font-family: var(--font-family-base);
-  font-size: var(--font-family-medium);
+  font-family: var(--font-family-medium);
+  font-size: var(--font-size-medium);
 }
 
 a {
