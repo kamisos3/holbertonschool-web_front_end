@@ -216,7 +216,7 @@ template {
 
 section {
   text-align: var(--section-header-align);
-  padding: var(--section-header-padding);
+  padding: var(--section-padding);
 }
 
 /* This define the style of each section defined in index.html */
