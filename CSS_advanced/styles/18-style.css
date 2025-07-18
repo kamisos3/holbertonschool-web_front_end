@@ -249,6 +249,13 @@ template {
 
 section {
   text-align: var(--section-header-align);
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: var(--font-weight-bold);
+  --nav-item-font-size: var(--font-size-medium);
+  --nav-item-letter-spacing: 0.064rem;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 4.8rem 0;
+  --nav-item-link-hover: var(--color-primary);
   padding: var(--section-padding);
 }
 
