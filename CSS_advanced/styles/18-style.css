@@ -154,14 +154,11 @@ nav .nav-item {
 
 nav .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
 nav .nav-link:hover {
   color: var(--nav-item-link-hover);
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
 }
 progress {
   vertical-align: baseline;
@@ -246,7 +243,8 @@ template {
   --section-body-padding: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
-
+  --nav-item-letter-spacing: 0.064rem;
+  --nav-item-margin: 0 0 4.8rem 0;
 }
 
 section {
