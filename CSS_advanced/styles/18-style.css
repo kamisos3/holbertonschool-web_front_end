@@ -208,6 +208,13 @@ template {
 
 /* Adding font sizes variables */
 :root {
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: var(--font-weight-bold);
+  --nav-item-font-size: var(--font-size-medium);
+  --nav-item-letter-spacing: 0.064rem;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 4.8rem 0;
+  --nav-item-link-hover: var(--color-primary);
   --color-primary:   #d73953;
   --color-black:     #090909;
   --color-white:     #ffffff;
@@ -243,13 +250,6 @@ template {
   --section-body-padding: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
-  --nav-item-letter-spacing: 0.064rem;
-  --nav-item-margin: 0 0 4.8rem 0;
-  --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--font-weight-bold);
-  --nav-item-font-size: var(--font-size-medium);
-  --nav-item-display: inline-block;
-  --nav-item-link-hover: var(--color-primary);
 }
 
 section {
