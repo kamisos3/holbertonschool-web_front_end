@@ -142,12 +142,17 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
 }
 
-.nav {
+nav {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 nav .nav-item {
   font-family: var(--nav-item-font-family);
