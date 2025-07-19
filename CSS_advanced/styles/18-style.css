@@ -322,7 +322,7 @@ nav ul {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
 .nav .nav-link:hover {
