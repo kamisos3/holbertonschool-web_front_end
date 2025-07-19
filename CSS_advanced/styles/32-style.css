@@ -184,9 +184,9 @@ textarea {
 
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+  -webkit-appearance: textfield;
   appearance: textfield;
-  outline-offset: -2px; /* 2 */
+  outline-offset: -2px;
 }
 
 
@@ -415,7 +415,6 @@ a:active {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-    transition: all var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
@@ -424,7 +423,6 @@ a:active {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: all var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
