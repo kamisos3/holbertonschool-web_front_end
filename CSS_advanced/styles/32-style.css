@@ -362,6 +362,19 @@ a:active {
     text-align: center;
 }
 
+.card-work:hover .card-image img {
+    transform: scale(1.2);
+    transition: all var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+.card-work .card-outer {
+    transform: scale(0.95)
+}
+
+.card-work .card-inner {
+    transition: all var(--transition-duration) var(--transition-cubic-bezier);
+}
+
 .card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
