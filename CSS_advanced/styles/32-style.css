@@ -49,15 +49,11 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
-  text-decoration: underline dotted;
 }
 
 b,
 strong {
   font-weight: bolder;
-    transition-property: color, background-color;
-    transition-duration: var(--transition-duration);
 }
 
 code,
