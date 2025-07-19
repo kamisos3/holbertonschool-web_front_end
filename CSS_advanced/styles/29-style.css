@@ -412,7 +412,6 @@ nav ul {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    position: relative;
 }
 
 .nav .nav-link:hover {
